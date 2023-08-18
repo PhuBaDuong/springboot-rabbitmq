@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+rabbitmq:
+  queue:
+    name: techdguide
+  exchange:
+    name: techdguide_exchange
+  routing:
+    key: techdguide_routing_key
