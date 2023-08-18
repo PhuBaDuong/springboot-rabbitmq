@@ -8,7 +8,11 @@ spring:
 rabbitmq:
   queue:
     name: techdguide
+    json:
+      name: techdguide_json
   exchange:
-    name: techdguide_exchange
+      name: techdguide_exchange
   routing:
     key: techdguide_routing_key
+    json:
+      key: techdguide_routing_json_key
